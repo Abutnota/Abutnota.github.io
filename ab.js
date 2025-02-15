@@ -1,11 +1,17 @@
  var p=0;
 function myFunction() {
- if(p==0) {
+ switch(p){
+ case 0:
  document.body.style.backgroundImage ="url('BGr/sunset.gif')";
   p=1;
- }
-  else {
- document.body.style.backgroundImage ="url('BGr/abc.gif')" ;
- p=0;
+  break;
+  case 1:
+ document.body.style.backgroundImage ="url('BGr/fireplace.gif')" ;
+ p=2;
+ break;
+  case 2:
+  document.body.style.backgroundImage ="url('BGr/abc.gif')" ;
+  p=0;
+  break;
  }
 }
