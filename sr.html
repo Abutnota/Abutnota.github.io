@@ -40,11 +40,14 @@
 
 </div><br>
 <div class="link"><a href="index.html">Trang chủ</a> / Nội dung?</div>
-<p style="font-size:60; font-family:Arial Black; color:#ffffff; margin: 120px 0 0; text-align:center;">You found this!</p><br><br>
-<center><img src="sr_files/totem.png" width="160"></center>
-
-
-
+<p id="mess" style="font-size:60; font-family:Arial Black; color:#ffffff; margin: 120px 0 0; text-align:center;">You found this!</p><br><br>
+<center><img src="sr_files/totem.png" width="160" id="pic" onclick="myFunction()"></center>
+<script>
+function myFunction() { 
+  document.getElementById("mess").innerHTML = "Làm cái này chán quá :((";
+  document.getElementById("pic").src="sr_files/block.png";
+}
+</script>
 
 </body>
 </HTML>
