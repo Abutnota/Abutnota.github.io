@@ -1,4 +1,4 @@
- var p=0;
+ var p;
 function myFunction() {
  if(p==0) {
  document.body.style.backgroundImage ="url('BGr/sunset.gif')";
