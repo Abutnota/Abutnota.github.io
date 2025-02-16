@@ -1,7 +1,7 @@
  var p=0;
 function myFunction() {
  switch(p){
- case 0:
+ default:
  document.body.style.backgroundImage ="url('BGr/sunset.gif')";
   p=1;
   break;
